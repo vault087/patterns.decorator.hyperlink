@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17132" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="n4P-KM-S2p">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17105.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="x50-af-O37">
+            <objects>
+                <navigationController id="n4P-KM-S2p" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8LP-Zv-tgE">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="loc-nf-oo2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jEZ-yw-xRs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1014" y="80"/>
+        </scene>
+        <!--Hyperlinks-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Hyperlinks" id="BYZ-38-t0r" customClass="ExampleViewController" customModule="Decorator_Hyperlink" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dtZ-DM-DQT">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="4Qq-3F-MFp">
+                                        <rect key="frame" x="0.0" y="24" width="414" height="77"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Link1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qyU-6D-Htk">
+                                                <rect key="frame" x="187.5" y="0.0" width="39" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Link2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p1I-DU-nh0">
+                                                <rect key="frame" x="186.5" y="28.5" width="41.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MFB-mG-iCc">
+                                                <rect key="frame" x="0.0" y="57" width="414" height="20"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="Kte-N5-76I"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="4Qq-3F-MFp" secondAttribute="bottom" id="4f2-9H-vZz"/>
+                                    <constraint firstItem="4Qq-3F-MFp" firstAttribute="leading" secondItem="dtZ-DM-DQT" secondAttribute="leading" id="7Um-Uo-Utz"/>
+                                    <constraint firstAttribute="trailing" secondItem="4Qq-3F-MFp" secondAttribute="trailing" id="a1F-BI-wR9"/>
+                                    <constraint firstItem="4Qq-3F-MFp" firstAttribute="top" secondItem="dtZ-DM-DQT" secondAttribute="top" constant="24" id="gb4-Zv-kXj"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dtZ-DM-DQT" secondAttribute="bottom" id="QY9-vl-Ykz"/>
+                            <constraint firstItem="dtZ-DM-DQT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ok7-Lp-k19"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dtZ-DM-DQT" secondAttribute="trailing" id="tRG-jb-OFY"/>
+                            <constraint firstItem="4Qq-3F-MFp" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="vbn-GL-Xcx"/>
+                            <constraint firstItem="dtZ-DM-DQT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="xHv-f8-sir"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="COZ-4V-oR2"/>
+                    <connections>
+                        <outlet property="hyperlinkLabel1" destination="qyU-6D-Htk" id="lXf-7o-emy"/>
+                        <outlet property="hyperlinkLabel2" destination="p1I-DU-nh0" id="8PO-nj-xac"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-114" y="80"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
