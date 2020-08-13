@@ -17,7 +17,6 @@
 		F8A1F38C24E1AD0D00215B97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A1F38A24E1AD0D00215B97 /* Main.storyboard */; };
 		F8A1F38E24E1AD0F00215B97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8A1F38D24E1AD0F00215B97 /* Assets.xcassets */; };
 		F8A1F39124E1AD0F00215B97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A1F38F24E1AD0F00215B97 /* LaunchScreen.storyboard */; };
-		F8A1F3A724E1B4FB00215B97 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8A1F3A624E1B4FB00215B97 /* Lobster-Regular.ttf */; };
 		F8A1F3AE24E1C4E200215B97 /* UILabel+Hyperlink.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A1F3AD24E1C4E200215B97 /* UILabel+Hyperlink.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +33,6 @@
 		F8A1F38D24E1AD0F00215B97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8A1F39024E1AD0F00215B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8A1F39224E1AD0F00215B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8A1F3A624E1B4FB00215B97 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
 		F8A1F3AD24E1C4E200215B97 /* UILabel+Hyperlink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Hyperlink.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,7 +87,6 @@
 		F8A1F39924E1AE6300215B97 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F8A1F3A624E1B4FB00215B97 /* Lobster-Regular.ttf */,
 				F8A1F38A24E1AD0D00215B97 /* Main.storyboard */,
 				F8A1F38F24E1AD0F00215B97 /* LaunchScreen.storyboard */,
 				F8A1F38D24E1AD0F00215B97 /* Assets.xcassets */,
@@ -175,7 +172,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8A1F39124E1AD0F00215B97 /* LaunchScreen.storyboard in Resources */,
-				F8A1F3A724E1B4FB00215B97 /* Lobster-Regular.ttf in Resources */,
 				F8A1F38E24E1AD0F00215B97 /* Assets.xcassets in Resources */,
 				F8A1F38C24E1AD0D00215B97 /* Main.storyboard in Resources */,
 			);

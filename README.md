@@ -1,2 +1,3 @@
-# design_patterns.decorator
-Extending UIKit functionality with Decorator pattern. UILabel with Text Styles and URL hyperlink
+# Design Patterns - Decorator, Part1.
+ 
+Making clickable UILabel with url property.
